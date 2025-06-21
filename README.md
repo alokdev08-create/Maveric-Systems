@@ -38,4 +38,4 @@ Thing required to proceed forward
 
 2. Write the test cases successfully
 
-3. Please write the code in TDD (Test Driven Development) approach – First you need to write test cases, then you need to implement the code that should be incremental commits to see GIT history.
+3. Write the code in TDD (Test Driven Development) approach – First you need to write test cases, then you need to implement the code that should be incremental commits to see GIT history.
