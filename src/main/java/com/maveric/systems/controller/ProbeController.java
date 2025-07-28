@@ -3,6 +3,7 @@ package com.maveric.systems.controller;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -52,5 +53,11 @@ public class ProbeController {
 	@GetMapping("/visited")
 	public List<Point> getVisited() {
 		return probe.getVisited();
+	}
+
+	@GetMapping("/users")
+	public ResponseEntity<?> getUserDetails() {
+		List<String> userList = List.of("Alok", "Ranjan");
+		return ResponseEntity.ok(userList);
 	}
 }
