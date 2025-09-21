@@ -1,0 +1,20 @@
+[21-09-2025 17:56:01.28] --------whoami-------- 
+desktop-fq8beo3\alok
+[21-09-2025 17:56:01.56] --------whoami-------- 
+[21-09-2025 17:56:01.56] Waiting for Runner.Listener.exe (62540) to complete 
+Runner.Listener.exe          62540 Console                    3     77,624 K
+[21-09-2025 17:56:02.17] Process 62540 still running, check again after 1 second. 
+[21-09-2025 17:56:03.85] Process 62540 finished running 
+[21-09-2025 17:56:03.86] Sleep 1 more second to make sure process exited 
+[21-09-2025 17:56:04.89] Re-organize folders 
+[21-09-2025 17:56:05.11] move "C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\bin" "C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\bin.2.308.0" 
+        1 dir(s) moved.
+[21-09-2025 17:56:05.70] move "C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\externals" "C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\externals.2.308.0" 
+        1 dir(s) moved.
+[21-09-2025 17:56:05.71] Create junction bin folder 
+Junction created for C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\bin <<===>> C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\bin.2.328.0
+[21-09-2025 17:56:08.00] Create junction externals folder 
+Junction created for C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\externals <<===>> C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\externals.2.328.0
+[21-09-2025 17:56:10.82] Update succeed 
+[21-09-2025 17:56:10.82] update.finished file creation succeed 
+[21-09-2025 17:56:10.82] Rename "C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\_diag\SelfUpdate-20250921-122600.log" to be "C:\Users\Alok\Downloads\Maveric Systems\Maveric-Systems\actions-runner\actions-runner-win-x64-2.308.0\_diag\SelfUpdate-20250921-122600.log.succeed" 
