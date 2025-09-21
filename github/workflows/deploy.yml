@@ -1,4 +1,4 @@
-name: Build and Deploy to Docker (Windows)
+name: Docker Image CI
 
 on:
   push:
@@ -12,10 +12,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-
-    - name: Ensure Docker is running
-      run: |
-        docker info
 
     - name: Stop existing container (if running)
       continue-on-error: true
