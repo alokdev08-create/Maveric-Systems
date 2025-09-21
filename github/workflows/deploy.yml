@@ -1,0 +1,20 @@
+name: Build and Deploy to Docker (Windows)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build Docker image
+      run: docker build -t maveric-app .
+
+    - name: Run Docker container
+      run: docker run -d -p 8081:8081 --name maveric-app maveric-app
